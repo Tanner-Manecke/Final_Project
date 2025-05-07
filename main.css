@@ -2,9 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
-      background: linear-gradient(to right, #4a00e0, #8e2de2); /* blue to purple gradient */
-      color: white; /* Optional: Makes text easier to read on dark background */
+    background: linear-gradient(to right, #4a00e0, #8e2de2); 
+    color: white; 
     
   }
   
