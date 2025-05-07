@@ -1,81 +1,120 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, #4a00e0, #8e2de2); 
-    color: white; 
-    
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    position: relative;
-    font-family: cursive;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  .top-right {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    text-align: right;
-  }
-  
-  .top-right a,
-  .top-right input[type="button"] {
-    color: white;
-    margin-left: 10px;
-    text-decoration: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  .main {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  
-  .image-box {
-    width: 45%;
-  }
-  
-  .image-box img {
-    width: 100%;
-    height: auto;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #8e2de2, #4a00e0, #8e2de2);
+  color: white;
+}
 
-  .text-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  
-  .text-box {
-    width: 45%;
-    background-color: #333;
-    padding: 15px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  }
-  
-  footer {
-    background-color: #222;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin-top: 40px;
-  }
-  
-  footer div {
-    width: 45%;
-  }
-  
+/* Header */
+header {
+  background-color: #222; /* darker header color */
+  color: white;
+  padding: 20px;
+  font-family: cursive;
+  font-size: 48px;
+  position: relative;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Top-right Navigation (from first CSS) */
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+}
+
+.top-right a,
+.top-right input[type="button"] {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Full-width Box (from second CSS) */
+.full-width-box {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Content Section */
+.main,
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Image Box */
+.image-box {
+  width: 45%;
+  background-color: #444;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.image-box img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text Sections */
+.text-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.text-box {
+  width: 45%;
+  background-color: #444;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer div {
+  width: 45%;
+}
+
+/* Return Button */
+.return-button {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+  padding: 10px 20px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.return-button:hover {
+  background-color: #777;
+}
