@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
+      background: linear-gradient(to right, #4a00e0, #8e2de2); /* blue to purple gradient */
+      color: white; /* Optional: Makes text easier to read on dark background */
+    
   }
   
   header {
@@ -58,7 +62,7 @@ body {
   
   .text-box {
     width: 45%;
-    background-color: #f4f4f4;
+    background-color: #333;
     padding: 15px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
