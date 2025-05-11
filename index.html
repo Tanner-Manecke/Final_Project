@@ -12,32 +12,35 @@
     <h1>Bowl Haven</h1>
     <div class="top-right">
       <a href="index2.html">Bowling</a>
-      <a href="#">How To</a>
-      <input type="button" value="Sign In">
-      <input type="button" value="Register">
+      <a href="index3.html">How To</a>
+      <a href="index4.html">Leagues</a>
+      <a href="index5.html">Future</a>
     </div>
   </header>
 
   <div class="main">
     <div class="image-box">
-      <img src="https://via.placeholder.com/400x200" alt="Left Image">
+      <img src="https://www.shutterstock.com/image-photo/bowling-strike-hit-ball-hitting-600nw-2500395287.jpg" alt="Left Image">
     </div>
     <div class="image-box">
-      <img src="https://via.placeholder.com/400x200" alt="Right Image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF4YWZHGqgDgRz5JO3aeIP3-WId4wLBPsp0g&s" alt="Right Image">
     </div>
   </div>
 
   <div class="text-section">
     <div class="text-box">
-      <h3>Text Box 1</h3>
-      <p>Something will go here just figuring it out.</p>
+      <h3>Welcome</h3>
+      <p>This is Bowl Haven which I hope will make you want to try bowling.</p>
     </div>
     <div class="text-box">
-      <h3>Text Box 2</h3>
-      <p>Something will go here just figuring it out.</p>
+      <h3>What we offer</h3>
+      <p>In the top right there's a couple of tabs that can be clicked and you can 
+        choose a pick what you want to learn at the wonderful sport that is bowling.
+      </p>
     </div>
   </div>
 
+ 
   <footer>
     <div>
       <h4>About Us</h4>
@@ -51,5 +54,21 @@
     </div>
   </footer>
 
+  
+  <div style="text-align:center; margin: 30px;">
+    <button onclick="showTime()">Show Current Time</button>
+    <p id="timeDisplay" style="margin-top: 10px; font-size: 18px;"></p>
+  </div>
+
+  
+  <script>
+    function showTime() {
+      const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      document.getElementById("timeDisplay").textContent = "Current Time: " + timeString;
+    }
+  </script>
+
 </body>
 </html>
+
